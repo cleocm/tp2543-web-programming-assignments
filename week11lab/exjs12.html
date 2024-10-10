@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ex. #12</title>
+	<script>
+		function genPattern () {
+			var i, j,k;
+			k=1;
+			for (i=1;i <= 4; i++) {
+				for (j=i; j<4; j++) {
+				document.write ("&nbsp; "+"&nbsp; ") ;
+			}
+			for (j=1; j <= i; j++) {
+				document.write (k+"&nbsp; "+"&nbsp; ");
+				k++;
+			}
+			document.write("<br>") ;
+			}
+		}
+	</script>
+</head>
+<body>
+	<p align="center">
+		<a href="exjs1.html">Ex. #1 |</a>
+		<a href="exjs2.html"> Ex. #2 |</a>
+		<a href="exjs4.html"> Ex. #4 |</a>
+		<a href="exjs5.html"> Ex. #5 |</a>
+		<a href="exjs8.html"> Ex. #8 |</a>
+		<a href="exjs12.html"> Ex. #12</a>
+		<br>
+		<hr>
+	</p>
+	<h3 align="center">Ex. #12</h3>
+	<h2 align="center">Print Pattern</h2>
+	<p align="center">OUTPUT: </p><br><br>
+	<div class="container" align="center">
+		<input type="button" value="Click to Check Output" onclick="return genPattern();">
+	</div>
+
+</body>
+</html>

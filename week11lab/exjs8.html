@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ex. #8</title>
+	<script type="text/javascript">
+		function weekdayByNumber(){
+
+			var input=prompt("Please enter a number from 1-7");
+			input=parseInt(input);
+			switch (input){
+			case 1: 
+				document.write(input+" = Monday");
+				break;
+			case 2: 
+				document.write(input+" = Tuesday"); 
+				break;
+			case 3: 
+				document.write(input+" = Wednesday"); 
+				break;
+			case 4: 
+				document.write(input+" = Thursday"); 
+				break;
+			case 5:
+				document.write(input+" = Friday"); 
+				break;
+			case 6: 
+				document.write(input+" = Saturday"); 
+				break;
+			case 7: 
+				document.write(input+" = Sunday"); 
+				break;
+			default: 
+				document.write(input+" is not valid and does not denote any day of the week."); 
+				break;
+			}
+		}
+	</script>
+</head>
+<body>
+	<p align="center">
+		<a href="exjs1.html">Ex. #1 |</a>
+		<a href="exjs2.html"> Ex. #2 |</a>
+		<a href="exjs4.html"> Ex. #4 |</a>
+		<a href="exjs5.html"> Ex. #5 |</a>
+		<a href="exjs8.html"> Ex. #8 |</a>
+		<a href="exjs12.html"> Ex. #12</a>
+		<br>
+		<hr>
+	</p>
+	<h3 align="center">Ex. #8</h3>
+	<h2 align="center">Weekday by Number</h2>
+	<p align="center">OUTPUT: </p><br><br>
+	<div class="container" align="center">
+		<input type="button" value="Click to enter number" onclick="return weekdayByNumber();">
+	</div>
+</body>
+</html>

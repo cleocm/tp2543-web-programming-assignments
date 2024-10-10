@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .bg-1 {
+      background-color: #F172A1;
+      color: #f0ebf4;
+    }
+    .bg-2 {
+      background-color: #b39bc8 ; /* Dark Blue */
+      color: #f0ebf4;
+    }
+    .bg-3 {
+      background-color: #a1c3d1; /* White */
+      color: #f0ebf4;
+    }
+    body {
+    font: 14px "Montserrat", sans-serif;
+    line-height: 1.8;
+    }
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .responsive{
+      width: 20%;
+      height:auto;
+      border-radius: 50%;
+    }
+    #borderimg1 {
+      border: 20px solid hotpink;
+      padding:10px;
+      border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png) 20 22 round;
+    }
+    .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+  .bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+  </style>
+
+</head>
+<body id="myPage">
+
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#hello">Hello</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#where">Where</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="container-fluid bg-1 text-center" id="hello">
+  <h3>Hello</h3>
+  <img src="cleophoto.jpg" class="responsive" alt="Myself">
+  <h3>Hello! I'm Cleo ^^</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center" id="who">
+  <h3><strong>Who Am I?</strong></h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p><strong>An Avid Cat Lover</strong></p>
+      <p></p>
+      <p> Show me your cats and I'll go like pspspspsps immediately. I LOVE CATS. I have 8 cats at home with my parents. They're literally my mental and emotional support during hard times (aside from parents and friends). Here is a picture of one of my cats. </p>
+      <p>(BEWARE: Might cause cuteness aggression.)</p>
+      <p id="borderimg1"><img src="totoicat.jpg" class="img-responsive" alt="Image" style="display:inline" border="80%"></p>
+    </div>
+    <div class="col-sm-4">
+      <p><strong>A Trilingual Person</strong></p>
+      <p></p>
+      <p> This isn't really an interesting trait considering the fact Malaysia is filled with Trilingual people and polyglots. But still, I would say I'm quite proud of being able to converse smoothly in Malay, English and  Mandarin (and occasionally Rojak). I would say the fact I can still converse in Mandarin fluently even though I stopped after Primary School makes it quite impressive. Plus, this will no doubt boost me up tremendously in the work field.</p>
+      <p id="borderimg1"><img src="stonks.jpg" class="img-responsive" alt="Image" style="display:inline" border="80%"></p>
+    </div>
+    <div class="col-sm-4">
+      <p><strong>A (Borderline) Weeb</strong></p>
+      <p></p>
+      <p> I simply enjoy watching anime and reading manga whenever I wish to destress. I also enjoy attending ACG events and conventions. My favourite genres are Action, Slice of Life, Isekai and occassionally some Shoujo. Currently, my favourite anime/manga has got to be 'Frieren: Beyond Journey's End' which talks about the heartwarming story about friendships.</p>
+      <p id="borderimg1"><img src="anime.jpg" class="img-responsive" alt="Image" style="display:inline" border="80%"></p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center" id="where">
+  <h3>Where To Find Me?</h3>
+  <p>I will be around UKM Bangi most of the time.</p>
+  <p>You could also just contact me through my siswa email (A188384) if there's any urgent matters that I'm involved in.</p>
+
+  <p> Though, I will only tell my exact location to those I know personally or if I have any urgent matters that needed to be done.</p>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.6062034007487!2d101.77751777447037!3d2.9289734544676835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdc9f6e881cbf7%3A0xb06402ffc0884bd7!2sUniversiti%20Kebangsaan%20Malaysia!5e0!3m2!1sen!2smy!4v1704294277095!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="container-fluid" style="background-color: #dddddd" id="contact">
+  <h3 class="text-center">Contact Me</h3>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact me and I'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Bangi, Selangor</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +60165847260</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> a188384@siswa.ukm.edu.my</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid bg4 text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright © Your Website 2024</p>
+</footer>
+
+</body>
+</html>
